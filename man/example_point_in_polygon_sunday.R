@@ -1,3 +1,5 @@
+library(sp)
+
 # Define the polygon and point using sp
 polygon_coords <- cbind(c(1, 5, 4, 2, 1), c(1, 1, 4, 5, 1))  # Polygon coordinates
 polygon <- Polygon(polygon_coords)  # Create the Polygon object
