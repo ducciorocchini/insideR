@@ -1,5 +1,5 @@
 # insideR
-point in polygon algorithms
+R package for point in polygon algorithms
 
 <p align="center">
   <img 
