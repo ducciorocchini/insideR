@@ -1,4 +1,3 @@
-
 # Example polygon and point
 polygon <- matrix(c(2,2, 3,2, 6,1, 6,6, 5,6), ncol=2, byrow=TRUE)
 point <- c(3, 3)
