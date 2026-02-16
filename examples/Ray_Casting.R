@@ -1,3 +1,5 @@
+library(insideR)
+library(ggplot2)
 
 # Example polygon and point
 polygon <- matrix(c(1,7, 5,4, 4,3, 2,6), ncol=2, byrow=TRUE)
