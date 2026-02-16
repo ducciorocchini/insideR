@@ -1,12 +1,10 @@
-library(insideR)
-library(ggplot2)
 
 # Example polygon and point
 polygon <- matrix(c(2,2, 3,2, 6,1, 6,6, 5,6), ncol=2, byrow=TRUE)
 point <- c(3, 3)
 
 # Use Sunday's Algorithm to check if the point is inside the polygon
-inside_sunday <- point_in_polygon_sunday(point, polygon_coords)
+inside_sunday <- point_in_polygon_sunday(point, polygon)
 
 # Print the result
 print(inside_sunday)  # TRUE if inside, FALSE if outside
